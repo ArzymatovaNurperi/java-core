@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jdbcAndHibernate:war">
+    <output-path>$PROJECT_DIR$/jdbc/jdbcAndHibernate/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jdbcAndHibernate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jdbcAndHibernate.war">
+      <element id="artifact" artifact-name="jdbcAndHibernate:war exploded" />
+    </root>
+  </artifact>
+</component>
